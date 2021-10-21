@@ -1,0 +1,17 @@
+<svg id="icon-weltkugel" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+  <g id="Gruppe_3239" data-name="Gruppe 3239">
+    <circle id="Ellipse_112" data-name="Ellipse 112" cx="11.5" cy="11.5" r="11.5" fill="#707070"/>
+  </g>
+  <g id="Gruppe_3241" data-name="Gruppe 3241" transform="translate(-740.494 -2541.5)">
+    <line id="Linie_142" data-name="Linie 142" x2="12.988" transform="translate(745.5 2559.11)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Linie_143" data-name="Linie 143" y1="2.959" transform="translate(751.997 2556.152)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <g id="Gruppe_3240" data-name="Gruppe 3240" transform="translate(746.671 2545.5)">
+      <path id="Pfad_42761" data-name="Pfad 42761" d="M758.131,2550.806a5.343,5.343,0,0,1-5.341,5.345,5.4,5.4,0,0,1-5.311-5.442,5.208,5.208,0,0,1,5.1-5.2c.076,0,.154-.005.231-.005A5.3,5.3,0,0,1,758.131,2550.806Z" transform="translate(-747.479 -2545.5)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Pfad_42762" data-name="Pfad 42762" d="M754.654,2545.509c-2.778,3.01-2.778,6.937,0,10.642" transform="translate(-749.558 -2545.504)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Pfad_42763" data-name="Pfad 42763" d="M756.875,2545.509c2.778,3.01,2.778,6.935,0,10.64" transform="translate(-751.315 -2545.504)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Linie_144" data-name="Linie 144" x2="9.498" transform="translate(0.593 7.693)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Linie_145" data-name="Linie 145" x2="8.876" transform="translate(0.888 2.367)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Linie_146" data-name="Linie 146" x2="10.652" transform="translate(0 5.326)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
