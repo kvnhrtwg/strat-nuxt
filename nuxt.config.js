@@ -49,7 +49,7 @@ export default {
   // Strapi Doku: https://strapi.io/documentation/developer-docs/latest/developer-resources/content-api/integrations/nuxt-js.html
   strapi: {
     entities: ['home'],
-    url: process.env.BACKEND_URL || 'http://localhost:1337',
+    url: process.env.BACKEND_URL || 'https://api.kevinhartwig.de',
   },
 
   // Tailwind module configuration: https://tailwindcss.nuxtjs.org/options

@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white text-black py-20 lg:py-52" id="team">
+  <section id="team" class="bg-white text-black py-20 lg:py-52">
     <div class="container mx-auto">
       <div
         class="
@@ -41,9 +41,8 @@
           :class="
             seen ? '-translate-x-0 opacity-100' : '-translate-x-32 opacity-0'
           "
-        >
-          {{ content.text }}
-        </p>
+          v-html="content.text"
+        ></p>
       </div>
     </div>
     <div class="container mx-auto flex justify-center relative">

@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white text-black py-20 lg:py-52" id="skills">
+  <section id="skills" class="bg-white text-black py-20 lg:py-52">
     <div class="container mx-auto flex justify-end">
       <div
         class="

@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-10 lg:pb-64" id="benefits">
+  <section id="benefits" class="pb-10 lg:pb-64">
     <div class="container mx-auto">
       <div
         class="

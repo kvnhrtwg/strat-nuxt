@@ -13,7 +13,6 @@
           border-b
           last:border-b-0 last:border-r-0
           lg:border-b-0 lg:border-r
-          cursor-pointer
           flex flex-col
           justify-between
         "
