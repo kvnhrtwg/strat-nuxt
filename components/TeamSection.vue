@@ -144,7 +144,7 @@ export default defineComponent({
   setup() {
     const intersectionRef = ref(null)
     const { isIntersecting } = useIntersectionObserver(intersectionRef)
-    const apiURL = ref('http://localhost:1337')
+    const apiURL = ref('https://api.kevinhartwig.de')
     const seen = ref(false)
     const swiperOptions = ref({
       slidesPerView: 1,
