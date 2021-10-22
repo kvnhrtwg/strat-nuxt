@@ -40,3 +40,9 @@ export default defineComponent({
   },
 })
 </script>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>

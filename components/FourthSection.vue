@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 lg:py-52">
+  <section class="py-20 lg:py-52" id="journey">
     <div class="container mx-auto flex justify-end">
       <div
         class="

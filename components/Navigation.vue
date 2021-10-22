@@ -17,19 +17,19 @@
     <div class="flex">
       <ul class="flex items-center">
         <li class="hidden xl:block mr-10 2xl:mr-20 text-xl">
-          <a href="#">Your Skills</a>
+          <a href="#benefits">Your Benefits</a>
         </li>
         <li class="hidden xl:block mr-10 2xl:mr-20 text-xl">
-          <a href="#">The Ticket</a>
+          <a href="#skills">Your Skills</a>
         </li>
         <li class="hidden xl:block mr-10 2xl:mr-20 text-xl">
-          <a href="#">Your Solutions</a>
+          <a href="#solutions">Your Solutions</a>
         </li>
         <li class="hidden xl:block mr-10 2xl:mr-20 text-xl">
-          <a href="#">The Journey</a>
+          <a href="#journey">The Journey</a>
         </li>
         <li class="hidden xl:block mr-10 2xl:mr-20 text-xl">
-          <a href="#">Our Team</a>
+          <a href="#team">Our Team</a>
         </li>
       </ul>
       <a class="hidden xl:block btn btn-small" href="#">Get in touch</a>

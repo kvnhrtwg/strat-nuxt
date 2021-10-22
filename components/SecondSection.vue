@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white text-black py-20 lg:py-52">
+  <section class="bg-white text-black py-20 lg:py-52" id="skills">
     <div class="container mx-auto flex justify-end">
       <div
         class="
@@ -45,9 +45,8 @@
           :class="
             seen ? 'translate-x-0 opacity-100' : 'translate-x-32 opacity-0'
           "
-        >
-          {{ content.text }}
-        </p>
+          v-html="content.text"
+        ></p>
       </div>
     </div>
     <div class="container mx-auto lg:flex lg:gap-8 text-center">

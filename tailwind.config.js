@@ -5,9 +5,9 @@ module.exports = {
       screens: {
         sm: '576px',
         md: '768px',
-        lg: '992px',
-        xl: '1232px',
-        '2xl': '1432px',
+        lg: '1142px',
+        xl: '1374px',
+        '2xl': '1560px',
       },
       fontFamily: {
         body: ['Nunito Sans', 'sans-serif'],
@@ -64,9 +64,12 @@ module.exports = {
       },
       inset: {
         '-1.5': '-0.3rem',
+        '-18': '-4.5rem',
+        '-31': '-7.75rem',
         58: '14.5rem',
         66: '16.5rem',
         88: '22rem',
+        108: '27rem',
         120: '25rem',
         121: '26.5rem',
         124: '31rem',

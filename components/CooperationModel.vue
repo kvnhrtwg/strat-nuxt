@@ -12,11 +12,11 @@
         <h2 class="text-2.5xl lg:text-5.5xl font-extrabold mb-2">
           {{ content.headline }}
         </h2>
-        <p class="whitespace-pre-wrap">{{ content.text }}</p>
+        <p class="whitespace-pre-wrap lg:w-3/5">{{ content.text }}</p>
       </div>
-      <div class="relative coop-model--animate">
+      <div class="relative coop-model--animate xl:w-11/12 mx-auto">
         <div class="grid grid-cols-coop">
-          <div class="h-64 animated-border-lt relative">
+          <div class="h-60 animated-border-lt relative">
             <svg
               class="absolute -right-2 -top-1 rotate-90 opacity-0"
               xmlns="http://www.w3.org/2000/svg"
@@ -37,72 +37,76 @@
               text-xl
               lg:text-2.125xl
               text-center text-primary
-              -mt-10
-              lg:-mt-13
+              -mt-3
+              xl:-mt-4
               px-4
               opacity-0
               animated-headline
             "
           >
-            <p class="font-extrabold">START-UPS</p>
-            <p>Proof of Concept/<br class="lg:hidden" />Prototyp</p>
+            <p class="font-extrabold">STARTUP</p>
           </div>
-          <div class="h-64 animated-border-rt relative"></div>
+          <div class="h-48 lg:h-64 animated-border-rt relative"></div>
         </div>
         <div ref="cooperationModel" class="flex justify-between">
           <div
             class="
               text-xl
               lg:text-2.125xl
-              -rotate-90
-              origin-left
-              ml-4
+              text-center
               mt-16
-              lg:mt-28
+              lg:my-8 lg:-ml-16
               opacity-0
               animated-headline
+              -rotate-90
+              lg:rotate-0
+              absolute
+              lg:static
+              -left-18
+              top-64
             "
           >
-            Funding
+            Purchase<br class="hidden lg:block" />
+            Order
           </div>
           <div
             class="
               text-xl
-              lg:text-2.125xl
-              rotate-90
-              origin-right
-              mt-24
-              lg:mt-36
-              text-primary
+              lg:text-2.125xl lg:my-8 lg:-mr-32
+              text-center text-primary
               opacity-0
               animated-headline
+              rotate-90
+              lg:rotate-0
+              absolute
+              -right-31
+              top-80
+              lg:static
             "
           >
-            Innovation
+            Proof-of-Concept /<br class="hidden lg:block" />Prototyp
           </div>
         </div>
         <div class="grid grid-cols-coop">
-          <div class="h-128 lg:h-64 animated-border-lb relative"></div>
+          <div
+            class="mt-48 lg:mt-0 h-108 lg:h-64 animated-border-lb relative"
+          ></div>
           <div
             class="
               text-xl
               lg:text-2.125xl
               text-center
               px-4
-              -mb-8
-              lg:-mb-4
-              self-end
+              -mb-4
               opacity-0
               animated-headline
+              flex flex-col
+              justify-end
             "
           >
-            <p class="font-extrabold">COMPANY</p>
-            <p>
-              Assignment<br class="lg:hidden" />
-              for a pilot
-            </p>
+            <p class="font-extrabold">CORPORATE</p>
           </div>
-          <div class="h-128 lg:h-64 animated-border-rb relative">
+          <div class="mt-60 lg:mt-0 h-96 lg:h-64 animated-border-rb relative">
             <svg
               class="absolute -left-2 -bottom-1 rotate-90 opacity-0"
               xmlns="http://www.w3.org/2000/svg"
@@ -123,7 +127,8 @@
         <img
           class="
             absolute
-            top-24
+            top-8
+            2xl:top-16
             w-192
             hidden
             lg:block
@@ -155,8 +160,10 @@
         <p
           class="
             absolute
-            top-36
-            xl:top-48
+            top-32
+            lg:top-28
+            xl:top-32
+            2xl:top-40
             left-0
             right-0
             w-44

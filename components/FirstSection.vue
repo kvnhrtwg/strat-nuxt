@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-10 lg:pb-64">
+  <section class="pb-10 lg:pb-64" id="benefits">
     <div class="container mx-auto">
       <div
         class="
@@ -49,10 +49,10 @@
         :class="
           seen ? '-translate-x-0 opacity-100' : '-translate-x-32 opacity-0'
         "
-      >
-        {{ content.text }}
-      </p>
+        v-html="content.text"
+      ></p>
     </div>
+
     <div class="relative">
       <img
         class="absolute top-0 -left-96 xl:-left-52 animate-kew hidden lg:block"

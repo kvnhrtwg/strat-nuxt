@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white text-black py-20 lg:py-52">
+  <section class="bg-white text-black py-20 lg:py-52" id="team">
     <div class="container mx-auto">
       <div
         class="
@@ -66,9 +66,9 @@
             <p class="mb-2 font-extrabold">{{ item.name }}</p>
             <p class="mb-6">{{ item.position }}</p>
             <div class="flex gap-2 mb-6">
-              <a :href="item.twitter" target="_blank">
+              <!--<a :href="item.twitter" target="_blank">
                 <img src="/images/icon-twitter.svg" alt="Twitter Logo" />
-              </a>
+              </a>-->
               <a :href="item.linkedin" target="_blank">
                 <img src="/images/icon-linked-in.svg" alt="LinkedIn Logo" />
               </a>

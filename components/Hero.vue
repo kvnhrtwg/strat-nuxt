@@ -1,15 +1,37 @@
 <template>
   <section class="mb-24 lg:mb-36">
     <div
-      class="
-        bg-key-mobile
-        lg:bg-key lg:bg-left
-        bg-no-repeat
-        transition-opacity
-        duration-700
-      "
+      class="transition-opacity duration-700 relative"
       :class="loaded ? 'opacity-100' : 'opacity-0'"
     >
+      <div
+        class="
+          lg:absolute
+          left-0
+          top-0
+          bottom-0
+          w-full
+          lg:flex lg:items-center lg:w-3/5
+        "
+      >
+        <img
+          class="w-full absolute my-auto"
+          src="/images/hero-transparent.jpg"
+          alt="Hero Image"
+        />
+        <img
+          class="
+            w-full
+            opacity-0
+            hover:opacity-100
+            absolute
+            my-auto
+            animate-pulse
+          "
+          src="/images/hero.jpg"
+          alt="Hero Image"
+        />
+      </div>
       <div
         class="
           container
