@@ -20,14 +20,7 @@
           alt="Hero Image"
         />
         <img
-          class="
-            w-full
-            opacity-0
-            hover:opacity-100
-            absolute
-            my-auto
-            animate-pulse
-          "
+          class="w-full opacity-0 absolute my-auto animate-pulse"
           src="/images/hero.jpg"
           alt="Hero Image"
         />

@@ -53,7 +53,7 @@ export default {
   },
 
   env: {
-    VUE_APP_API_URL: 'http://localhost:1337',
+    VUE_APP_API_URL: 'http://159.69.5.55:1337',
     VUE_APP_APP_URL: 'http://localhost:3000',
   },
 
