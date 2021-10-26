@@ -20,7 +20,7 @@
           alt="Hero Image"
         />
         <img
-          class="w-full opacity-0 absolute my-auto animate-pulse duration-3000"
+          class="w-full opacity-0 absolute my-auto animate-pulse-slow"
           src="/images/hero.jpg"
           alt="Hero Image"
         />

@@ -80,8 +80,8 @@ module.exports = {
       transformOrigin: {
         info: '8% 24%',
       },
-      duration: {
-        3000: '3000ms',
+      animation: {
+        'pulse-slow': 'pulse 7s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
     },
   },
