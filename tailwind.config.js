@@ -80,15 +80,8 @@ module.exports = {
       transformOrigin: {
         info: '8% 24%',
       },
-      keyframes: {
-        skew: {
-          '0%, 100%': { transform: 'scale(1, 1)' },
-          '33%': { transform: 'scale(1.1, 1.3)' },
-          '66%': { transform: 'scale(1.3, 1.2)' },
-        },
-      },
-      animation: {
-        skew: 'skew 10s ease-in-out infinite',
+      duration: {
+        3000: '3000ms',
       },
     },
   },
