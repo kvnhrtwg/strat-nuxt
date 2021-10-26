@@ -98,7 +98,7 @@ export default {
           },
         },
       },
-      apiURL: 'https://api.kevinhartwig.de',
+      apiURL: process.env.VUE_APP_API_URL,
     }
   },
 }
