@@ -81,9 +81,9 @@ export default {
     return {
       swiperOptions: {
         slidesPerView: 1,
-        /* autoplay: {
-          duration: 4000,
-        }, */
+        autoplay: {
+          duration: 2000,
+        },
         loop: true,
         navigation: {
           nextEl: '.swiper-button-next',

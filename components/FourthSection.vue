@@ -20,7 +20,7 @@
     <div class="flex justify-end">
       <div class="h-px w-full lg:w-1/2 bg-white mb-8"></div>
     </div>
-    <div class="container mx-auto flex justify-end mb-24">
+    <div class="container mx-auto flex justify-end">
       <div class="w-full lg:w-1/2">
         <h2
           class="
@@ -47,6 +47,12 @@
         ></p>
       </div>
     </div>
+    <video
+      src="/videos/moving-mesh.mp4"
+      autoplay="true"
+      loop="true"
+      muted="true"
+    />
     <div class="container mx-auto text-center lg:flex lg:gap-8 lg:text-left">
       <div
         v-for="(item, index) in content.list_items"
@@ -60,7 +66,8 @@
           v-if="item.icon"
           :src="`${apiURL}${item.icon.url}`"
           :alt="item.icon.name"
-          class="w-22 mb-6 lg:mb-15 mx-auto lg:mx-0"
+          class="h-22 mb-6 mx-auto lg:mx-0"
+          :class="index % 2 !== 0 ? 'lg:mt-64' : ''"
         />
         <div>
           <h3 class="font-extrabold mb-2">{{ item.headline }}</h3>
