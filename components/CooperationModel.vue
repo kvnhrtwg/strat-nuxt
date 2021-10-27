@@ -178,7 +178,7 @@
             animated-header
           "
         >
-          START-UP TECHNOLOGY
+          STARTUP TECHNOLOGY
         </p>
         <div
           class="
