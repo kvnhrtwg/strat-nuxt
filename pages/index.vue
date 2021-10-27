@@ -57,7 +57,12 @@ export default defineComponent({
   },
   methods: {
     setOpenModal(index) {
-      console.log(index)
+      const el = document.body
+      if (index !== -1) {
+        el.classList.add('overflow-hidden')
+      } else {
+        el.classList.remove('overflow-hidden')
+      }
       this.openModal = index
     },
   },

@@ -8,9 +8,10 @@
       flex flex-col
       items-center
       bg-bg-opacity
-      min-h-full
       py-40
       z-9999
+      h-full
+      overflow-y-scroll
     "
   >
     <div class="container bg-bg p-20 relative shadow-neon rounded-xl">
@@ -36,7 +37,7 @@
       <h1 class="text-2.25xl lg:text-5xl font-extrabold mb-10">
         {{ content.headline }}
       </h1>
-      <div v-html="$md.render(content.content)"></div>
+      <div class="markdown" v-html="$md.render(content.content)"></div>
     </div>
   </div>
 </template>
@@ -56,3 +57,12 @@ export default {
   },
 }
 </script>
+<style>
+.markdown p {
+  margin-bottom: 1rem;
+}
+.markdown a {
+  color: #00dcb5;
+  text-decoration: underline;
+}
+</style>
