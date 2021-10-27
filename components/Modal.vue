@@ -65,4 +65,10 @@ export default {
   color: #00dcb5;
   text-decoration: underline;
 }
+.markdown ul {
+  padding-left: 1rem;
+}
+.markdown li {
+  list-style: disc;
+}
 </style>
