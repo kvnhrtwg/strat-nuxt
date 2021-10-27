@@ -114,7 +114,7 @@ export default {
 
 <style>
 @media screen and (min-width: 992px) {
-  .fade-enter-active,
+  /* .fade-enter-active,
   .headline-animated {
     transition: opacity 1.5s !important;
     transition-delay: 0.2s !important;
@@ -122,7 +122,7 @@ export default {
 
   .fade-enter {
     opacity: 0 !important;
-  }
+  }*/
 }
 
 .my-btn {

@@ -16,8 +16,22 @@
         class="mb-10"
       />
       <ul class="flex gap-14 mb-10">
-        <li><a class="text-xl font-bold" href="#">Privacy</a></li>
-        <li><a class="text-xl font-bold" href="#">Imprint</a></li>
+        <li>
+          <div
+            class="text-xl font-bold cursor-pointer"
+            @click="$emit('setOpenModal', 1)"
+          >
+            Privacy
+          </div>
+        </li>
+        <li>
+          <div
+            class="text-xl font-bold cursor-pointer"
+            @click="$emit('setOpenModal', 0)"
+          >
+            Imprint
+          </div>
+        </li>
       </ul>
       <p class="text-xl">© 2021 Stratosfare</p>
     </div>

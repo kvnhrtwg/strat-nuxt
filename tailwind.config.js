@@ -84,6 +84,12 @@ module.exports = {
       animation: {
         'pulse-slow': 'pulse 7s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
+      zIndex: {
+        9999: '9999',
+      },
+      boxShadow: {
+        neon: '0px 0px 13px #00dcb5',
+      },
     },
   },
   variants: {},

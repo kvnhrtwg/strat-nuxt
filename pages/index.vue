@@ -13,26 +13,14 @@
     <FourthSection v-if="page.Fourth_Section" :content="page.Fourth_Section" />
     <TeamSection v-if="page.Team_Section" :content="page.Team_Section" />
     <InfoSection v-if="page.Info_Section" :content="page.Info_Section" />
-    <Footer />
-    <!-- <div
-      class="
-        fixed
-        top-0
-        left-0
-        right-0
-        flex flex-col
-        items-center
-        bg-bg-opacity
-        py-40
-      "
-    >
-      <div class="bg-bg p-20 w-10/12">
-        <h1 class="text-2.25xl lg:text-5xl font-extrabold mb-10">
-          Ich bin ein Modal
-        </h1>
-        <div>Hallo</div>
-      </div>
-    </div> -->
+    <Footer @setOpenModal="setOpenModal" />
+    <transition name="fade">
+      <Modal
+        v-if="openModal !== -1"
+        :content="openModal !== -1 && legalPages[openModal]"
+        @setOpenModal="setOpenModal"
+      />
+    </transition>
   </div>
 </template>
 
@@ -62,11 +50,29 @@ export default defineComponent({
       legalPages,
     }
   },
+  data() {
+    return {
+      openModal: -1,
+    }
+  },
+  methods: {
+    setOpenModal(index) {
+      console.log(index)
+      this.openModal = index
+    },
+  },
 })
 </script>
 
 <style>
 html {
   scroll-behavior: smooth;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease-in-out;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
 }
 </style>

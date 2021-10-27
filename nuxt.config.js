@@ -44,7 +44,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/strapi'],
+  modules: ['@nuxtjs/strapi', '@nuxtjs/markdownit'],
 
   // Strapi Doku: https://strapi.io/documentation/developer-docs/latest/developer-resources/content-api/integrations/nuxt-js.html
   strapi: {
@@ -55,6 +55,10 @@ export default {
   env: {
     VUE_APP_API_URL: 'http://159.69.5.55:1337',
     VUE_APP_APP_URL: 'http://localhost:3000',
+  },
+
+  markdownit: {
+    runtime: true, // Support `$md()`
   },
 
   // Tailwind module configuration: https://tailwindcss.nuxtjs.org/options
