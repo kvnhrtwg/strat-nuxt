@@ -8,13 +8,16 @@
       flex flex-col
       items-center
       bg-bg-opacity
-      py-40
+      py-5
+      lg:py-40
       z-9999
       h-full
       overflow-y-scroll
     "
   >
-    <div class="container bg-bg p-20 relative shadow-neon rounded-xl">
+    <div
+      class="container bg-bg pt-20 p-5 lg:p-20 relative shadow-neon rounded-xl"
+    >
       <div
         class="absolute top-10 right-10 cursor-pointer"
         @click="$emit('setOpenModal', -1)"
@@ -34,7 +37,7 @@
           />
         </svg>
       </div>
-      <h1 class="text-2.25xl lg:text-5xl font-extrabold mb-10">
+      <h1 class="text-2.25xl lg:text-5xl font-extrabold mb-10 break-all">
         {{ content.headline }}
       </h1>
       <div class="markdown" v-html="$md.render(content.content)"></div>
