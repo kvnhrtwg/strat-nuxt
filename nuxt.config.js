@@ -48,8 +48,8 @@ export default {
 
   // Strapi Doku: https://strapi.io/documentation/developer-docs/latest/developer-resources/content-api/integrations/nuxt-js.html
   strapi: {
-    entities: ['home'],
-    url: process.env.BACKEND_URL || 'http://localhost:1337',
+    entities: ['home', 'legal-pages'],
+    url: process.env.BACKEND_URL || 'http://159.69.5.55:1337',
   },
 
   env: {

@@ -14,6 +14,25 @@
     <TeamSection v-if="page.Team_Section" :content="page.Team_Section" />
     <InfoSection v-if="page.Info_Section" :content="page.Info_Section" />
     <Footer />
+    <!-- <div
+      class="
+        fixed
+        top-0
+        left-0
+        right-0
+        flex flex-col
+        items-center
+        bg-bg-opacity
+        py-40
+      "
+    >
+      <div class="bg-bg p-20 w-10/12">
+        <h1 class="text-2.25xl lg:text-5xl font-extrabold mb-10">
+          Ich bin ein Modal
+        </h1>
+        <div>Hallo</div>
+      </div>
+    </div> -->
   </div>
 </template>
 
@@ -29,13 +48,18 @@ export default defineComponent({
   setup() {
     const { $strapi } = useContext()
     const page = ref({})
+    const legalPages = ref([])
 
     useFetch(async () => {
       page.value = await $strapi.$home.find()
+      legalPages.value = await $strapi['$legal-pages'].find()
     })
+
+    console.log({ legalPages })
 
     return {
       page,
+      legalPages,
     }
   },
 })

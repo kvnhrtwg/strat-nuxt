@@ -10,6 +10,8 @@
       lg:mb-0
       transition-all
       duration-700
+      relative
+      z-30
     "
     :class="loaded ? 'translate-y-0 opacity-100' : '-translate-y-32 opacity-0'"
   >

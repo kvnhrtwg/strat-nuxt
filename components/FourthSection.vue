@@ -52,6 +52,7 @@
       autoplay="true"
       loop="true"
       muted="true"
+      class="w-screen"
     />
     <div class="container mx-auto text-center lg:flex lg:gap-8 lg:text-left">
       <div

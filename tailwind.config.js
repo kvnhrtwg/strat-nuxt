@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         primary: '#00DCB5',
         bg: '#000104',
+        'bg-opacity': 'rgba(0, 1, 4, 0.4)',
       },
       fontSize: {
         '2.125xl': ['1.875rem', '2.125rem'],

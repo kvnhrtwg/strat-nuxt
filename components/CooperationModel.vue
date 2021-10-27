@@ -359,7 +359,7 @@ export default defineComponent({
 }
 
 .animated-border-lt:after {
-  transition: height 0.5s ease-out 1s, width 0.5s linear 1.5s;
+  transition: height 0.3s ease-out 0.6s, width 0.3s linear 1s;
   position: absolute;
   content: '';
   bottom: 0;
@@ -371,13 +371,13 @@ export default defineComponent({
 
 .animate .animated-border-lt svg {
   opacity: 1;
-  transition: opacity 0.3s linear 2.3s;
+  transition: opacity 0.3s linear 1.5s;
 }
 
 /* 2. ANIMATE START UPS HEADLINE */
 .animate .animated-headline {
   opacity: 1;
-  transition: opacity 0.3s linear 2.3s;
+  transition: opacity 0.3s linear 1.5s;
 }
 
 /* 3. ANIMATE RIGHT TOP BORDER */
@@ -389,7 +389,7 @@ export default defineComponent({
 }
 
 .animated-border-rt:after {
-  transition: width 0.5s ease-out 1s, height 0.5s linear 1.5s;
+  transition: width 0.3s ease-out 0.6s, height 0.3s linear 1s;
   position: absolute;
   content: '';
   top: 0;
@@ -408,7 +408,7 @@ export default defineComponent({
 }
 
 .animated-border-rb:after {
-  transition: height 0.5s ease-out 1s, width 0.5s linear 1.5s;
+  transition: height 0.3s ease-out 0.6s, width 0.3s linear 1s;
   position: absolute;
   content: '';
   top: 0;
@@ -420,7 +420,7 @@ export default defineComponent({
 
 .animate .animated-border-rb svg {
   opacity: 1;
-  transition: opacity 0.3s linear 2.3s;
+  transition: opacity 0.3s linear 1.5s;
 }
 
 /* 5. ANIMATE LEFT BOTTOM BORDER */
@@ -432,7 +432,7 @@ export default defineComponent({
 }
 
 .animated-border-lb:after {
-  transition: width 0.5s ease-out 1s, height 0.5s linear 1.5s;
+  transition: width 0.3s ease-out 0.6s, height 0.3s linear 1s;
   position: absolute;
   content: '';
   bottom: 0;
@@ -445,22 +445,22 @@ export default defineComponent({
 /* 6. ANIMATE HEADER */
 .animate .animated-header {
   opacity: 1;
-  transition: opacity 0.3s linear 2.9s;
+  transition: opacity 0.2s linear 2s;
 }
 
 /* 7. ANIMATE POINTS */
 .animate #animated-point-1 {
   opacity: 1;
-  transition: opacity 0.3s linear 3.5s;
+  transition: opacity 0.2s linear 2.4s;
 }
 
 .animate #animated-point-2 {
   opacity: 1;
-  transition: opacity 0.3s linear 4s;
+  transition: opacity 0.2s linear 2.7s;
 }
 
 .animate #animated-point-3 {
   opacity: 1;
-  transition: opacity 0.3s linear 4.5s;
+  transition: opacity 0.2s linear 3s;
 }
 </style>
