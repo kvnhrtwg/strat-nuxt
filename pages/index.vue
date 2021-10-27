@@ -43,8 +43,6 @@ export default defineComponent({
       legalPages.value = await $strapi['$legal-pages'].find()
     })
 
-    console.log({ legalPages })
-
     return {
       page,
       legalPages,
