@@ -12,7 +12,11 @@
           transition-all
           duration-700
         "
-        :class="seen ? 'translate-x-0 opacity-100' : 'translate-x-32 opacity-0'"
+        :class="
+          seen
+            ? 'translate-x-0 opacity-100'
+            : '-translate-x-32 lg:translate-x-32 opacity-0'
+        "
       >
         02
       </div>
@@ -35,7 +39,9 @@
             duration-700
           "
           :class="
-            seen ? 'translate-x-0 opacity-100' : 'translate-x-32 opacity-0'
+            seen
+              ? 'translate-x-0 opacity-100'
+              : '-translate-x-32 lg:translate-x-32 opacity-0'
           "
         >
           {{ content.headline }}
@@ -43,7 +49,9 @@
         <p
           class="whitespace-pre-wrap max-w-144 mb-6 transition-all duration-700"
           :class="
-            seen ? 'translate-x-0 opacity-100' : 'translate-x-32 opacity-0'
+            seen
+              ? 'translate-x-0 opacity-100'
+              : '-translate-x-32 lg:translate-x-32 opacity-0'
           "
           v-html="content.text"
         ></p>
