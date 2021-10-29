@@ -136,18 +136,20 @@ export default defineComponent({
 .transition-delay-3500 {
   transition-delay: 3500ms;
 }
-.after-test::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: -1rem;
-  height: 0;
-  width: 1px;
-  background-color: #00dcb5;
-  will-change: height;
-  transition: height 2s ease-in-out 0.5s;
-}
-.after-test.animate::after {
-  height: 22rem;
+@media (min-width: 1142px) {
+  .after-test::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -1rem;
+    height: 0;
+    width: 1px;
+    background-color: #00dcb5;
+    will-change: height;
+    transition: height 2s ease-in-out 0.5s;
+  }
+  .after-test.animate::after {
+    height: 22rem;
+  }
 }
 </style>
