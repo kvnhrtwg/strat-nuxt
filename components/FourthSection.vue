@@ -55,13 +55,7 @@
         ></p>
       </div>
     </div>
-    <video
-      src="/videos/moving-mesh.mp4"
-      autoplay="true"
-      loop="true"
-      muted="true"
-      class="w-screen"
-    />
+    <img src="/images/grafik-journey.svg" class="w-screen" />
     <div class="container mx-auto text-center lg:flex lg:gap-8 lg:text-left">
       <div
         v-for="(item, index) in content.list_items"
@@ -80,7 +74,9 @@
         />
         <div>
           <h3 class="font-extrabold mb-2">{{ item.headline }}</h3>
-          <p class="lg:text-lg whitespace-pre-wrap">{{ item.text }}</p>
+          <p class="after-test relative lg:text-lg" :class="{ animate: seen }">
+            {{ item.text }}
+          </p>
         </div>
       </div>
     </div>
@@ -139,5 +135,19 @@ export default defineComponent({
 }
 .transition-delay-3500 {
   transition-delay: 3500ms;
+}
+.after-test::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -1rem;
+  height: 0;
+  width: 1px;
+  background-color: #00dcb5;
+  will-change: height;
+  transition: height 2s ease-in-out 0.5s;
+}
+.after-test.animate::after {
+  height: 22rem;
 }
 </style>
