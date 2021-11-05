@@ -66,8 +66,8 @@
               top-64
             "
           >
-            Purchase<br class="hidden lg:block" />
-            Order
+            purchase<br class="hidden lg:block" />
+            order
           </div>
           <div
             class="
@@ -84,7 +84,7 @@
               lg:static
             "
           >
-            Proof-of-Concept /<br class="hidden lg:block" />Prototyp
+            proof-of-concept /<br class="hidden lg:block" />prototyp
           </div>
         </div>
         <div class="grid grid-cols-coop">
