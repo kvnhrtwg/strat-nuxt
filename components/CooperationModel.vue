@@ -84,7 +84,7 @@
               lg:static
             "
           >
-            proof-of-concept /<br class="hidden lg:block" />prototyp
+            proof of concept /<br class="hidden lg:block" />prototype
           </div>
         </div>
         <div class="grid grid-cols-coop">
