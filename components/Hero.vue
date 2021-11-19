@@ -15,12 +15,20 @@
         "
       >
         <img
-          class="w-full absolute my-auto"
+          class="w-full absolute left-4 -top-8 my-auto"
           src="/images/hero-transparent.jpg"
           alt="Hero Image"
         />
         <img
-          class="w-full opacity-0 absolute my-auto animate-pulse-slow"
+          class="
+            w-full
+            opacity-0
+            absolute
+            left-4
+            -top-8
+            my-auto
+            animate-pulse-slow
+          "
           src="/images/hero.jpg"
           alt="Hero Image"
         />
